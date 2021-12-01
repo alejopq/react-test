@@ -1,0 +1,11 @@
+.App-body {
+  > * {
+    margin: 20px 15px;
+    @media (min-width: 640px) {
+      margin: 20px 5%;
+    }
+    @media (min-width: 1280px) {
+      margin: 20px 10%;
+    }
+  }
+}

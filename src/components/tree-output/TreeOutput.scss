@@ -1,0 +1,30 @@
+.OutputContainer {
+  padding: 15px;
+  border-radius: 0.75rem;
+  overflow-x: scroll;
+  margin-bottom: 2rem;
+}
+
+.treeNode {
+  background-color: rgba(191, 219, 254, 1);
+  border: 1px solid rgba(30, 64, 175, 1);
+  border-radius: 0.5rem;
+  padding: 5px;
+  margin: 5px;
+  min-width: 50px;
+  width: fit-content;
+  min-height: 50px;
+  & .deepestTree {
+    border: 2px solid green;
+  }
+}
+
+.treeNode > .nodeId {
+  font-weight: bold;
+}
+.treeNode > .nodeChildren {
+  display: flex;
+}
+
+.nodeChildren > .treeNode {
+}
